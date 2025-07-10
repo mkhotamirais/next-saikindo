@@ -9,7 +9,7 @@ export default function SectionClients() {
       <div className="container">
         <h2 className="h2 !text-gray-800 mb-8 text-center">Our Clients</h2>
         <div className="grid grid-cols-3 md:grid-cols-6 gap-8">
-          {clientPhotos.splice(0, 12).map((item, index) => (
+          {clientPhotos.slice(0, 12).map((item, index) => (
             <Image
               key={index}
               src={item}
