@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "A simple Next.js application",
 };
 
-export default function EventLayout({
+export default function UniformLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
