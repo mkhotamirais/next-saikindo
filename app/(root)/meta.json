@@ -1,0 +1,28 @@
+{
+    "home": {
+        "baseUrl": "https://saikindo.co.id",
+        "name": "PT. Saikindo Surya Gumiwang",
+        "descriptin": "",
+        "keywords": [ 
+            "saikindo surya gumiwang",
+            "uniform supplier Bogor",
+            "custom uniforms",
+            "professional uniforms Bogor",
+            "power services Bogor",
+            "electrical maintenance Bogor",
+            "event organizer Bogor",
+            "corporate event organizer",
+            "health services Bogor",
+            "workplace health and safety solutions",
+            "industrial uniforms",
+            "sustainable uniforms",
+            "event management Bogor"],
+        "address": {
+            "street": "Komp. LPTI Jl. Paneli No.13A RT03/08 Kel Ciparigi Kecamatan Bogor Utara",
+            "city": "Bogor",
+            "state": "West Java",
+            "country": "Indonesia"
+        }
+    }
+}
+

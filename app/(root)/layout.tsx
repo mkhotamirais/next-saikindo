@@ -4,6 +4,7 @@ import { PT_Sans, Josefin_Sans } from "next/font/google";
 import Header from "./(home-components)/Header";
 import Footer from "./(home-components)/Footer";
 import { CustomAuthor } from "./types";
+import m from "./meta.json";
 
 // Importing fonts
 const ptSans = PT_Sans({
@@ -21,50 +22,26 @@ const josefinSans = Josefin_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://saikindo.co.id"),
+  metadataBase: new URL(m.home.baseUrl),
   title: {
-    absolute: "PT. Saikindo Surya Gumiwang - Uniform, Power, Event Organizer, and Health Services in Bogor", // menimpa semua value yang lain
+    absolute: "PT. Saikindo Surya Gumiwang - Uniform, Power, and Event Organizer in Bogor", // menimpa semua value yang lain
     default: "PT. Saikindo Surya Gumiwang", // default untuk page ini dan childnya
     template: "%s | PT. Saikindo Surya Gumiwang", // nilai dinamis tergantung childnya
   },
   description:
     "PT. Saikindo Surya Gumiwang offers professional services including custom uniform supply, power solutions, event organizing, and workplace health services in Bogor, Indonesia.",
-  keywords: [
-    "saikindo",
-    "uniform",
-    "event",
-    "power",
-    "saikindo surya gumiwang",
-    "uniform supplier Bogor",
-    "custom uniforms",
-    "professional uniforms Bogor",
-    "power services Bogor",
-    "electrical maintenance Bogor",
-    "event organizer Bogor",
-    "corporate event organizer",
-    "health services Bogor",
-    "workplace health and safety solutions",
-    "industrial uniforms",
-    "FTTH materials",
-    "sustainable uniforms",
-    "event management Bogor",
-  ],
+  keywords: m.home.keywords,
   authors: [
     {
-      name: "PT. Saikindo Surya Gumiwang",
+      name: m.home.name,
       role: "Company",
-      url: "https://saikindo.co.id",
+      url: m.home.baseUrl,
       image: "https://saikindo.co.id/logo.png",
       contact: {
         email: "office.saikindosg@gmail.com",
         phone: "+628111775774",
       },
-      address: {
-        street: "Komp. LPTI Jl. Paneli No.13A RT03/08 Kel Ciparigi Kecamatan Bogor Utara",
-        city: "Bogor",
-        state: "West Java",
-        country: "Indonesia",
-      },
+      address: m.home.address,
       socialProfiles: {
         facebook: "https://facebook.com/saikindo",
         linkedin: "https://linkedin.com/company/saikindo",
@@ -87,8 +64,8 @@ export const metadata: Metadata = {
       },
     },
   ] as CustomAuthor[],
-  creator: "PT. Saikindo Surya Gumiwang",
-  publisher: "PT. Saikindo Surya Gumiwang",
+  creator: m.home.name,
+  publisher: m.home.name,
   openGraph: {
     title: "PT. Saikindo Surya Gumiwang - Quality Services You Can Trust",
     description: "Professional cleaning, maintenance, and FTTH services.",
@@ -107,7 +84,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logos/ssg-logo-square-32.png" type="image/png" />
+        <link rel="icon" href="/logos/ssg-logo-square-favicon.png" type="image/png" />
       </head>
       <body className={`${ptSans.variable} ${josefinSans.variable} antialiased min-h-screen flex flex-col`}>
         <Header />

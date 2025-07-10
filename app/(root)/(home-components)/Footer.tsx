@@ -40,14 +40,14 @@ export default function Footer() {
           <div className="col-span-1">
             <Logo />
             <div className="text-sm space-y-3 mt-4">
-              <a href={c.maps.url} className="flex hover:text-primary">
+              <a href={c.maps.url} className="flex hover:text-primary w-fit">
                 <address>{c.maps.label}</address>
               </a>
-              <a href={c.email.url} className="flex items-center gap-2 hover:text-primary">
+              <a href={c.email.url} className="flex items-center gap-2 hover:text-primary w-fit">
                 <FaEnvelope />
                 {c.email.label}
               </a>
-              <a href={c.wa_all.url} className="flex items-center gap-2 hover:text-primary">
+              <a href={c.wa_all.url} className="flex items-center gap-2 hover:text-primary w-fit">
                 <FaWhatsapp />
                 {c.wa_all.label}
               </a>

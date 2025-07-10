@@ -6,6 +6,7 @@ import { useState } from "react";
 import { FaBars, FaWhatsapp, FaXmark } from "react-icons/fa6";
 import Logo from "./Logo";
 import { usePathname } from "next/navigation";
+import { contacts as c } from "../content";
 
 const menu = [
   { label: "Home", url: "/" },
@@ -36,7 +37,7 @@ export default function Header() {
                 {item.label}
               </Link>
             ))}
-            <a href="#" className="btn ml-4 flex items-center gap-2">
+            <a href={c.wa_all.url} className="btn ml-4 flex items-center gap-2">
               <FaWhatsapp className="text-xl" />
               Contact Us
             </a>
@@ -71,7 +72,7 @@ export default function Header() {
               {item.label}
             </Link>
           ))}
-          <a href="#" className="btn flex items-center justify-center mt-4 gap-2">
+          <a href={c.wa_all.url} className="btn flex items-center justify-center mt-4 gap-2">
             <FaWhatsapp className="text-xl" />
             Contact Us
           </a>

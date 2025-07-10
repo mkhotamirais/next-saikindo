@@ -18,6 +18,7 @@ export default function SectionAbout() {
             height={500}
             alt="building"
             className="object-cover object-center rounded-lg w-full h-72"
+            priority
           />
           <div className="absolute top-5 flex">
             {logoUrls.map((url, i) => (
@@ -28,6 +29,7 @@ export default function SectionAbout() {
                 height={100}
                 alt="saiki logo"
                 className="z-10 w-16 h-16 rounded-full mx-2"
+                priority
               />
             ))}
           </div>
@@ -47,7 +49,7 @@ export default function SectionAbout() {
             <Link href="/about" className="btn">
               More About Us
             </Link>
-            <a href="" className="btn2">
+            <a href="https://www.youtube.com/watch?v=sXFCwKD4JM4&t=37s" className="btn2">
               <FaPlay />
               Watch Video
             </a>

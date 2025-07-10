@@ -51,7 +51,7 @@ export const activityPhotos = [
 ];
 
 export const contacts = {
-  email: { label: "office.saikindosg@gmail.com", url: "https://mailto:office.saikindosg@gmail.com" },
+  email: { label: "office.saikindosg@gmail.com", url: "mailto:office.saikindosg@gmail.com" },
   maps: {
     label: "Komp. LPTI Jl. Paneli No.13A RT03/08 Kel Ciparigi Kecamatan Bogor Utara",
     url: "https://maps.app.goo.gl/2pxVdjk4N2VjyqTC9",

@@ -18,7 +18,7 @@ export default function SectionActivities() {
               src={item}
               width={500}
               height={500}
-              alt="building"
+              alt="saikindo activities"
               className="bg-white rounded-lg object-cover object-center h-48 w-full"
             />
           ))}

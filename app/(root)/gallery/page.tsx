@@ -15,10 +15,11 @@ export default function Gallery() {
               <Image
                 key={index}
                 src={item}
-                width={500}
-                height={500}
+                width={400}
+                height={400}
                 alt="building"
                 className="bg-white rounded-lg object-cover object-center h-48 w-full"
+                priority
               />
             ))}
           </div>

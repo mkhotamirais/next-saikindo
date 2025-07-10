@@ -15,13 +15,13 @@ export default function SectionClients() {
               src={item}
               width={300}
               height={300}
-              alt="building"
+              alt="saikindo clients"
               className="bg-white rounded-lg object-contain object-center h-24 w-full"
             />
           ))}
         </div>
         <div className="flex justify-center mt-8">
-          <Link href="/gallery" className="btn !py-3 !px-5">
+          <Link href="/clients" className="btn !py-3 !px-5">
             All Clients
           </Link>
         </div>

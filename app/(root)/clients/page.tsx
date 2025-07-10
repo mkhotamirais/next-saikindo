@@ -16,8 +16,9 @@ export default function Clients() {
                 src={item}
                 width={300}
                 height={300}
-                alt="building"
+                alt="saikindo clients"
                 className="bg-white rounded-lg object-contain object-center h-24 w-full"
+                priority
               />
             ))}
           </div>
