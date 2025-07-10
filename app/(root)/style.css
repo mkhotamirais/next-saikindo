@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Global styles */
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-bg: var(--charcoal);
+  --color-secondary-bg: var(--dark-slate);
+  --color-tertiary-bg: var(--midnight);
+  --font-pt-sans: var(--font-pt-sans);
+  --font-josefin-sans: var(--font-josefin-sans);
+}
+
+:root {
+  --rich-black: #0d1117;
+  --gunmetal: #2c3539;
+  --charcoal: #1c1c1e;
+  --jet-black: #343434;
+  --dark-slate: #20232a;
+  --midnight: #121212;
+  --onyx: #353839;
+
+  --primary: #facc15;
+}
+
+button,
+a {
+  @apply cursor-pointer;
+}
+
+.container {
+  @apply mx-auto max-w-6xl px-3 sm:px-6 lg:px-8 h-full;
+}
+
+.btn {
+  @apply bg-primary text-gray-800 text-sm font-medium py-2 px-3 rounded-md hover:bg-primary/80 transition-colors;
+}
+
+.btn2 {
+  @apply py-2 px-3 gap-2 text-sm flex items-center hover:text-primary;
+}
+
+.btn-icon {
+  @apply text-lg border p-2 rounded-md border-gray-500;
+}
+
+.h1,
+.h2,
+.h3 {
+  @apply font-josefin-sans;
+}
+
+.h1 {
+  @apply text-4xl lg:text-5xl font-bold;
+}
+
+.h2 {
+  @apply text-3xl lg:text-4xl text-primary font-semibold;
+}
+
+input {
+  @apply border py-2 px-3 rounded-md border-gray-500 w-full;
+}
