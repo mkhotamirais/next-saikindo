@@ -13,6 +13,9 @@ export default function UniformLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logos/logo-saiki-uniform-favicon.png" type="image/png" />
+      </head>
       <body className={`antialiased`}>{children}</body>
     </html>
   );

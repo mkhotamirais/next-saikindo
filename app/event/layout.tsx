@@ -13,6 +13,9 @@ export default function EventLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logos/logo-saiki-event-favicon.png" type="image/png" />
+      </head>
       <body className={`antialiased`}>{children}</body>
     </html>
   );
