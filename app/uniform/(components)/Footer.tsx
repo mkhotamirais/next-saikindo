@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const pages = [
+  { label: "Saikindo", url: "/", logoImage: "/logos/ssg-logo-square.png" },
   { label: "Saikindo Uniform", url: "/uniform", logoImage: "/logos/logo-saiki-uniform-fit.png" },
   { label: "Saikindo Power", url: "/power", logoImage: "/logos/logo-saiki-power-fit.png" },
   { label: "Saikindo Event", url: "/event", logoImage: "/logos/logo-saiki-event-fit.png" },
@@ -35,9 +36,9 @@ export default function Footer() {
                 <Link
                   key={index}
                   href={item.url}
-                  className="flex gap-2 items-center text-gray-400 hover:text-primary text-sm"
+                  className="py-1 flex gap-2 items-center text-gray-400 hover:text-primary text-sm"
                 >
-                  <Image src={item.logoImage} width={50} height={50} alt={item.label} className="invert w-7 h-7" />
+                  <Image src={item.logoImage} width={50} height={50} alt={item.label} className="invert w-6 h-6" />
                   {item.label}
                 </Link>
               ))}

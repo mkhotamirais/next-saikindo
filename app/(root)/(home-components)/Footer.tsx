@@ -8,26 +8,26 @@ const footerMenu = [
   {
     title: "Uniform",
     menus: [
-      { label: "Portfolio", url: "#" },
-      { label: "Our Clients", url: "#" },
-      { label: "More Info", url: "#" },
+      { label: "Portfolio", url: "/uniform" },
+      { label: "Our Clients", url: "/uniform" },
+      { label: "More Info", url: "/uniform" },
     ],
   },
   {
     title: "Power",
     menus: [
-      { label: "Maintenence", url: "#" },
-      { label: "General Supply", url: "#" },
-      { label: "Fiber Optic and Telecommunication", url: "#" },
+      { label: "Maintenence", url: "/power" },
+      { label: "General Supply", url: "/power" },
+      { label: "Fiber Optic and Telecommunication", url: "/power" },
     ],
   },
   {
     title: "Event Organizer",
     menus: [
-      { label: "Booth Production", url: "#" },
-      { label: "Backdrop", url: "#" },
-      { label: "Outbond", url: "#" },
-      { label: "Gathering", url: "#" },
+      { label: "Booth Production", url: "/event" },
+      { label: "Backdrop", url: "/event" },
+      { label: "Outbond", url: "/event" },
+      { label: "Gathering", url: "/event" },
     ],
   },
 ];

@@ -62,7 +62,7 @@ export default function Products() {
             </div>
             <div className="h-64 rounded overflow-hidden">
               <h2 className="text-2xl font-semibold mb-4 text-center">Here are our {cats.length} uniform categories</h2>
-              <div className="flex pb-12 items-center flex-col gap-2 h-64 w-full overflow-y-scroll">
+              <div className="flex pb-24 sm:pb-12 items-center flex-col gap-2 h-64 w-full overflow-y-scroll">
                 <button
                   type="button"
                   className="w-full sm:w-72 border rounded-full py-2 px-3 border-primary text-primary hover:bg-primary hover:text-gray-800 transition-all"
