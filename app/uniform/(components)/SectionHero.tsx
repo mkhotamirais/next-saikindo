@@ -16,7 +16,10 @@ export default function SectionHero() {
           <a href="#products" className="btn">
             Our Products
           </a>
-          <a href="" className="btn !bg-transparent !text-white border border-primary !hover:text-primary">
+          <a
+            href="https://www.youtube.com/watch?v=sXFCwKD4JM4"
+            className="btn !bg-transparent !text-white border border-primary !hover:text-primary"
+          >
             Profile Video
           </a>
         </div>

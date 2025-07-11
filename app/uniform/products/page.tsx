@@ -5,6 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { productMenu } from "../content";
 import Image from "next/image";
+import { contacts as c } from "@/app/(root)/content";
 
 const dataPerPage = 12;
 
@@ -49,7 +50,7 @@ export default function Products() {
                 Our Uniform Stock is Always <span className="text-primary">Ready to Order</span>
               </h1>
               <div className="flex flex-col lg:flex-row w-fit text-center gap-2">
-                <a href="#" className="btn inline-block">
+                <a href={c.wa_uniform.url} className="btn inline-block">
                   Order Now
                 </a>
                 <Link

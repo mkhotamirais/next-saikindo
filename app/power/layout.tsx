@@ -2,8 +2,8 @@ import "./style.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "My Next.js App",
-  description: "A simple Next.js application",
+  title: "Saikindo Power",
+  description: "Description Saikindo Power",
 };
 
 export default function PowerLayout({

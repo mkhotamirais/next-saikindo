@@ -11,8 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "My Next.js App",
-  description: "A simple Next.js application",
+  title: "Saikindo Uniform - Seragam Saikindo",
+  description: "Description Saikindo Uniform",
 };
 
 export default function UniformLayout({
