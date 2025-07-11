@@ -3,7 +3,6 @@
 import React from "react";
 import { HeroFlipText } from "./HeroFlipText";
 import Carousel from "@/components/Carousel";
-import Link from "next/link";
 
 const carouselData = [
   { label: "", description: "", image: "/images/carousel1.jpg" },
@@ -30,9 +29,9 @@ export default function SectionHero() {
             We focus on delivering the right solutions for all types of related needs, including building cleaning and
             maintenance, electrical services, FTTH material provision, uniforms, and event organization.
           </p>
-          <Link href="/products" className="btn !py-3 !px-5 !text-base inline-block">
+          <a href="#products" className="btn !py-3 !px-5 !text-base inline-block">
             Our Products
-          </Link>
+          </a>
         </div>
 
         <div className="relative w-full h-72 lg:h-80">

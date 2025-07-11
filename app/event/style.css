@@ -1,6 +1,1 @@
 @import "tailwindcss";
-
-@theme inline {
-  --color-primary: blue;
-  --font-inter: var(--font-inter);
-}

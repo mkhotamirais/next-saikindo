@@ -4,14 +4,14 @@ import React from "react";
 
 export default function LogoEvent() {
   return (
-    <Link href="/event">
+    <Link href="/event" className="flex gap-2 items-center">
       <Image
         src="/logos/logo-saiki-event-fit.png"
         alt="Logo Saikindo Event"
         width={50}
         height={50}
         priority
-        className="size-10"
+        className="size-12"
       />
       <div className="flex flex-col">
         <span>Saikindo</span>

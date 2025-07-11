@@ -1,14 +1,16 @@
 import React from "react";
-import LogoUniform from "./(components)/LogoUniform";
+import SectionHero from "./(components)/SectionHero";
+import SectionProducts from "./(components)/SectionProducts";
+import SectionAbout from "./(components)/SectionAbout";
+import SectionClients from "./(components)/SectionClients";
 
 export default function Uniform() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-slate-900 text-white">
-      <div className="text-center">
-        <LogoUniform />
-        <h1 className="text-5xl">Saikindo Uniform</h1>
-        <p className="text-3xl">Comming Soon</p>
-      </div>
-    </section>
+    <>
+      <SectionHero />
+      <SectionAbout />
+      <SectionProducts />
+      <SectionClients />
+    </>
   );
 }

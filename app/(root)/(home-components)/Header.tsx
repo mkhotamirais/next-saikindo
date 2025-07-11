@@ -22,7 +22,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="h-16 sticky top-0 z-50 bg-primary-bg text-white">
+      <header className="h-16 relative md:sticky top-0 z-50 bg-primary-bg text-white">
         <div className="container flex items-center justify-between">
           <Logo />
           <nav className="hidden md:flex items-center">
@@ -55,9 +55,8 @@ export default function Header() {
       <motion.div
         initial={{ height: 0 }}
         animate={{ height: isOpen ? "auto" : 0 }}
-        style={{ overflow: "hidden" }}
         transition={{ ease: "easeInOut", duration: 0.3 }}
-        className="relative flex md:hidden z-50"
+        className="relative flex md:hidden z-50 overflow-hidden"
       >
         <nav className="flex flex-col w-full p-2 border-b border-gray-500 bg-secondary-bg text-white text-sm">
           {menu.map((item, i) => (

@@ -22,6 +22,10 @@
   --primary: #facc15;
 }
 
+html {
+  @apply scroll-smooth;
+}
+
 button,
 a {
   @apply cursor-pointer;

@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+@theme inline {
+  --color-primary: var(--saffron);
+  --color-primary-bg: var(--midnight);
+  --color-secondary-bg: var(--rich-black);
+  --font-poppins: var(--font-poppins);
+}
+
+:root {
+  --saffron: #f4c430;
+  --midnight: #121212;
+  --rich-black: #0d1117;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+a,
+button {
+  @apply cursor-pointer;
+}
+
+.container {
+  @apply mx-auto max-w-6xl px-3 sm:px-6 lg:px-8 h-full;
+}
+
+.h1 {
+  @apply text-4xl lg:text-6xl font-semibold text-white;
+}
+
+.h2 {
+  @apply text-3xl lg:text-4xl font-medium;
+}
+
+.h3 {
+  @apply text-xl font-semibold;
+}
+
+.btn {
+  @apply bg-primary hover:bg-primary/90 text-gray-800 font-medium rounded-full py-3 px-5 text-sm;
+}

@@ -7,7 +7,7 @@ import { productsServices } from "../content";
 
 export default function SectionProductsServices() {
   return (
-    <section className="py-16 bg-secondary-bg text-white">
+    <section id="products" className="py-16 bg-secondary-bg text-white scroll-mt-18">
       <div className="container">
         <h2 className="h2 text-center mb-8">Products & Services</h2>
         <div className="grid md:grid-cols-3 gap-8 lg:gap-4">
