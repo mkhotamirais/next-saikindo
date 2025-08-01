@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const pages = [
   { label: "Saikindo", url: "/", logoImage: "/logos/ssg-logo-square.png" },
-  { label: "Saikindo Uniform", url: "/uniform", logoImage: "/logos/logo-saiki-uniform-fit.png" },
-  { label: "Saikindo Power", url: "/power", logoImage: "/logos/logo-saiki-power-fit.png" },
-  { label: "Saikindo Event", url: "/event", logoImage: "/logos/logo-saiki-event-fit.png" },
+  { label: "Saikindo Uniform", url: "/uniform", logoImage: "/logos/logo-saiki-uniform-baru.png" },
+  { label: "Saikindo Power", url: "/power", logoImage: "/logos/logo-saiki-power-baru.png" },
+  { label: "Saikindo Event", url: "/event", logoImage: "/logos/logo-saiki-event-baru.png" },
 ];
 
 export default function Footer() {

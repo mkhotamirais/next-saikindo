@@ -6,7 +6,7 @@ export default function LogoUniform() {
   return (
     <Link href="/event" className="flex items-center gap-2">
       <Image
-        src="/logos/logo-saiki-uniform-fit.png"
+        src="/logos/logo-saiki-uniform-baru.png"
         alt="Logo Saikindo Uniform"
         width={50}
         height={50}
