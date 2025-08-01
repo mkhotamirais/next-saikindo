@@ -28,7 +28,7 @@ export default function SectionAbout() {
                 width={100}
                 height={100}
                 alt="saiki logo"
-                className="z-10 w-16 h-16 rounded-full mx-2"
+                className="z-10 w-12 h-12 mx-1 object-contain object-center"
                 priority
               />
             ))}

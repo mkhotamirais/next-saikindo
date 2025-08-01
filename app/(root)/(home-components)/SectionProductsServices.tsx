@@ -18,7 +18,7 @@ export default function SectionProductsServices() {
                 width={500}
                 height={500}
                 alt={item.title}
-                className="bg-white rounded-full p-4 object-cover object-center w-42 h-42"
+                className="bg-white rounded-lg p-4 object-contain object-center w-42 h-42"
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold mb-2">{item.title}</h3>

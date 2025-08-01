@@ -1,8 +1,8 @@
 export const logos = {
   logoSsg: "/logos/ssg-logo-square.png",
-  logoUniform: "/logos/logo-saiki-uniform-fit.png",
-  logoEvent: "/logos/logo-saiki-event-fit.png",
-  logoPower: "/logos/logo-saiki-power-fit.png",
+  logoUniform: "/logos/logo-saiki-uniform-baru.png",
+  logoEvent: "/logos/logo-saiki-event-baru.png",
+  logoPower: "/logos/logo-saiki-power-baru.png",
 };
 
 export const clientPhotos = [
@@ -29,10 +29,10 @@ export const clientPhotos = [
 ];
 
 export const activityPhotos = [
-  "/images/activities/2025-09-7-activity-1.jpg",
+  // "/images/activities/2025-09-7-activity-1.jpg",
   "/images/activities/2025-09-7-activity-2.jpg",
-  "/images/activities/2025-09-7-activity-3.jpg",
-  "/images/activities/2025-09-7-activity-4.jpg",
+  // "/images/activities/2025-09-7-activity-3.jpg",
+  // "/images/activities/2025-09-7-activity-4.jpg",
   "/images/activities/2025-09-7-activity-5.jpg",
   "/images/activities/2024-09-11-yantex-1.jpg",
   "/images/activities/2024-09-11-yantex-2.jpg",
@@ -56,8 +56,8 @@ export const contacts = {
     label: "Komp. LPTI Jl. Paneli No.13A RT03/08 Kel Ciparigi Kecamatan Bogor Utara",
     url: "https://maps.app.goo.gl/2pxVdjk4N2VjyqTC9",
   },
-  wa_all: { label: "+62 898-1158-0649", url: "https://wa.me/6289811580649" },
-  wa_uniform: { label: "+62 898-1158-0649", url: "https://wa.me/6289811580649" },
+  wa_all: { label: "+62 896-1158-0649", url: "https://wa.me/6289611580649" },
+  wa_uniform: { label: "+62 896-1158-0649", url: "https://wa.me/6289611580649" },
   wa_power: { label: "+62 812-4935-6449", url: "https://wa.me/6281249356449" },
   wa_event: { label: "+62 811-1775-774", url: "https://wa.me/6288111775774" },
 };
