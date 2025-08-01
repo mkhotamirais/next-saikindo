@@ -5,7 +5,8 @@ import Link from "next/link";
 import { FaPlay } from "react-icons/fa6";
 import { logos as l } from "@/app/(root)/content";
 
-const logoUrls = [l.logoSsg, l.logoUniform, l.logoEvent, l.logoPower];
+// const logoUrls = [l.logoSsg, l.logoUniform, l.logoEvent, l.logoPower];
+const logoUrls = [l.logoSsg];
 
 export default function SectionAbout() {
   return (
