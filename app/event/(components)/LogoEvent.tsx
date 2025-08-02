@@ -11,11 +11,11 @@ export default function LogoEvent() {
         width={50}
         height={50}
         priority
-        className="size-12"
+        className="size-12 invert"
       />
       <div className="flex flex-col">
-        <span>Saikindo</span>
-        <span>Event</span>
+        <span className="font-bold text-white font-heebo">Saikindo</span>
+        <span className="text-sm tracking-[3px] text-primary">Uniform</span>
       </div>
     </Link>
   );

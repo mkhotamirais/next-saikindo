@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@theme inline {
+  --color-primary: green;
+  --color-primary-bg: var(--midnight);
+  --color-secondary-bg: var(--rich-black);
+  --font-inter: var(--font-inter);
+  --font-heebo: var(--font-heebo);
+}
+
+:root {
+  --saffron: #f4c430;
+  --midnight: #121212;
+  --rich-black: #0d1117;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+a,
+button {
+  @apply cursor-pointer;
+}
+
+.btn {
+  @apply py-3 px-6 rounded-lg bg-primary text-white;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 h-full;
+}
