@@ -75,7 +75,7 @@ export default function Footer() {
       </div>
       <div className="bg-secondary-bg py-4">
         <div className="container flex items-center justify-between">
-          <p className="text-xs">Copyright &copy; 2023 PT. Saikindo Surya Gumiwang</p>
+          <p className="text-xs">Copyright &copy; {new Date().getFullYear()} PT. Saikindo Surya Gumiwang</p>
           <div className="flex items-center gap-4">
             <FaLinkedin />
             <FaYoutube />
